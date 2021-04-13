@@ -1,9 +1,39 @@
-.table {
-  width: 100%;
-  border: solid 2px chocolate;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.filetable {
-  height: 70px;
+#main-container {
+  margin: 150px auto;
+  width: 600px;
+}
+.table {
+  background-color: coral;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: solid 1px black;
+  padding: 20px;
+}
+
+thead {
+  background-color: blueviolet;
+  color: aquamarine;
+  border-bottom: solid 5px blueviolet;
+}
+tr:nth-child(even) {
+  background-color: chartreuse;
+}
+
+tr:hover td {
+  background-color: cornflowerblue;
+}
+
+.header {
   text-align: center;
+  margin-top: 30px;
 }
